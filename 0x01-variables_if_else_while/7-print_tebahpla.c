@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Prints base 10 numbers starting from 0
+ * main - Prints alphabet in reverse.
  *
  * Return: Always 0
  */
 int main(void)
 {
-	int a;
+	char alp;
 
-	for (a = 48; i < 58; a++)
+	for (alp = 'z'; alp >= 'a'; alp--)
 	{
-		putchar(a);
+		putchar(alp);
 	}
 	putchar('\n');
 	return (0);
